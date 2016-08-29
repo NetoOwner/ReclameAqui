@@ -43,12 +43,12 @@
     <div class="container">
 	
 
-      <form class="form-signin" method="POST" action="processa_cad_usuario.php">
+      <form class="form-signin" method="POST" action="processa_formulario.php">
         <h2 class="form-signin-heading">Formulário</h2>
 		<label for="inputPassword" class="sr-only">Telefone</label>
-        <input type="text" name="txt_nome_usuario" id="inputNome" class="form-control" placeholder="Digite o seu Telefone" required>
+        <input type="text" name="txt_telefone" id="inputNome" class="form-control" placeholder="Digite o seu Telefone" required>
         <label for="inputPassword" class="sr-only">Empresa</label>
-        <input type="text" name="txt_senha_usuario" id="inputPassword" class="form-control" placeholder="Empresa que está fazendo a cobrança" required>
+        <input type="text" name="txt_empresa" id="inputPassword" class="form-control" placeholder="Empresa que está fazendo a cobrança" required>
 		
 		<div class="form-group">
     <label for="exampleTextarea" class="sr-only">Descreva o Problema</label>
@@ -58,7 +58,7 @@
   <div class="form-group">
     <label for="exampleInputFile">Anexar Arquivo</label>
     <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
-    <small id="fileHelp" class="form-text text-muted">Escolher arquivo a ser anexado.</small>
+    <small name="txt_anexar" class="form-text text-muted">Escolher arquivo a ser anexado.</small>
   </div>
   
 		<button class="btn btn-lg btn-danger btn-block" type="submit">Enviar</button>
@@ -90,5 +90,5 @@
 
 
 
-<a href="sair.php"  class="btn btn-danger" role="button">Sair</a> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="sair.php"  class="btn btn-danger" role="button">Sair</a> 
 
