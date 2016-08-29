@@ -11,14 +11,14 @@
 	
 	if(mysqli_affected_rows($conn) != 0){
 				echo "
-					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/1-login/index.php'>
+					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/ReclameAqui/index.php'>
 					<script type=\"text/javascript\">
 						alert(\"Usuario cadastrado com Sucesso.\");
 					</script>
 				";	
 			}else{
 				echo "
-					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/1-login/cadastro.php'>
+					<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/ReclameAqui/cadastro.php'>
 					<script type=\"text/javascript\">
 						alert(\"O Usuario não foi cadastrado com Sucesso.\");
 					</script>
